@@ -26,17 +26,23 @@
 
 ## The Problem
 
-Over 20 million Nigerians belong to savings and credit cooperatives — yet most are still run on paper ledgers, WhatsApp group chats, and shared spreadsheets. Money disappears. Loans go untracked. Members have no visibility into their own balances. Administrators burn hours reconciling books by hand.
+Hundreds of millions of people across Africa and the emerging world belong to savings and credit cooperatives. These cooperatives — known as SACCOs, chamas, ajo groups, esusu clubs, and dozens of other names — are one of the most effective wealth-building vehicles available to communities that formal banks have never adequately served.
 
-The cooperative model is one of the most powerful wealth-building tools available to everyday Nigerians. It deserves better infrastructure.
+Yet most of them are still run on paper ledgers, WhatsApp group chats, and shared spreadsheets. Money disappears. Loans go untracked. Members have no visibility into their own balances. Administrators burn hours reconciling books by hand. And when things go wrong — and they do — there is no audit trail.
+
+The cooperative model is powerful. The infrastructure holding it together is not.
 
 ---
 
 ## What We're Building
 
-**Communal** is a full-stack fintech platform that gives cooperatives real banking infrastructure — and gives their members a first-class digital financial experience — without requiring any technical expertise to operate.
+**Communal** gives cooperatives the financial infrastructure they deserve.
 
-A cooperative can onboard in minutes. Their members get a mobile app. Their administrators get a complete back-office. Every naira is tracked, every loan is auditable, and every transaction settles through regulated banking rails.
+We replace the spreadsheets, the paper receipts, and the informal record-keeping with a fully integrated digital platform — one that handles everything from member onboarding and identity verification to loan disbursement, savings tracking, bill payments, and real-time interbank transfers, all through regulated banking rails.
+
+A cooperative can be up and running in minutes. Their members get a mobile app. Their administrators get a complete back-office. Every naira is tracked, every loan is auditable, every transaction is settled — and every member can see exactly where they stand.
+
+No technical expertise required. No external accounting software. No reconciliation headaches.
 
 ---
 
@@ -47,23 +53,23 @@ A cooperative can onboard in minutes. Their members get a mobile app. Their admi
 <td width="50%" valign="top">
 
 ### For Cooperatives
-- **Instant setup** — onboard your cooperative and verify your business identity in one flow
-- **Member management** — onboard, suspend, activate, and manage hundreds of members from a single dashboard
-- **Loan management** — configure loan products, set eligibility rules, manage disbursements and repayment schedules, and track guarantors
-- **Financial obligations** — create custom contribution categories with configurable interest, collateral factors, and withdrawal rules
-- **Approval workflows** — multi-signature approvals for high-value actions with a full audit trail
-- **Reporting** — ledgers, payment vouchers, dividend tracking, and statement exports
+- **Business verification** — onboard and verify your cooperative's identity through a regulated KYB flow
+- **Member management** — onboard, organise, suspend, and manage your entire membership from one dashboard
+- **Loan products** — configure loan schemes with your own interest rates, tenures, eligibility rules, and guarantor requirements
+- **Financial obligations** — define custom savings and contribution categories with configurable interest, collateral factors, and payout rules
+- **Approval workflows** — multi-administrator approvals with counter-signing for high-value decisions and a full immutable audit trail
+- **Ledger & reporting** — real-time ledgers, payment vouchers, dividend tracking, and exportable member statements
 
 </td>
 <td width="50%" valign="top">
 
 ### For Members
-- **KYC-tiered accounts** — identity-verified wallets with progressive transaction limits
-- **Deposits & savings** — make deposits, track contributions, and watch balances in real time
-- **Loans** — apply for loans, view repayment schedules, and make payments from the app
-- **Bank transfers** — send money to any Nigerian bank account or to fellow cooperative members instantly
-- **Bill payments** — airtime, data, electricity, and TV subscriptions in a few taps
-- **Biometric security** — fingerprint and face-based transaction authorisation on supported devices
+- **Verified accounts** — identity-verified wallets with progressive transaction limits tied to their KYC level
+- **Savings & contributions** — make deposits, track obligations across every cooperative they belong to, and view balances in real time
+- **Loans** — apply for loans, view full repayment schedules, and make payments without visiting an office
+- **Bank transfers** — send money to any Nigerian bank account or directly to other members, settled on the interbank network
+- **Bill payments** — airtime, data, electricity, and TV subscriptions without leaving the app
+- **Biometric authorisation** — device-native fingerprint and face verification for transactions on supported devices
 
 </td>
 </tr>
@@ -73,63 +79,50 @@ A cooperative can onboard in minutes. Their members get a mobile app. Their admi
 
 ## What Makes Communal Different
 
-**We don't bolt fintech onto a cooperative tool — we built a cooperative tool on top of real fintech.**
+**We didn't bolt fintech features onto a cooperative management tool. We built a cooperative platform on top of real banking infrastructure.**
 
-Every member wallet is a regulated account. Every transfer settles on the NIP interbank network. KYC is enforced by a dedicated compliance service. The platform is built from the ground up for the realities of cooperative finance in Nigeria: cash-heavy operations, trust-based loan guarantees, and the need for transparency across a community.
+Most cooperative software is glorified spreadsheet software. It tracks numbers but cannot move money, cannot verify identities, and cannot enforce limits. Communal is different because the financial layer is not an afterthought — it is the foundation.
 
----
-
-## Our Stack
-
-<div align="center">
-
-**Backend**
-&nbsp;
-![PHP](https://img.shields.io/badge/PHP%208.2-777BB4?style=flat-square&logo=php&logoColor=white)
-![Laravel](https://img.shields.io/badge/Laravel%2011-FF2D20?style=flat-square&logo=laravel&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=flat-square&logo=rabbitmq&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-
-**Frontend & Mobile**
-&nbsp;
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
-
-</div>
+Every member wallet is a regulated account. Every transfer settles on the NIP interbank network. Identity verification runs through a dedicated compliance service purpose-built for the cooperative context. The entire platform is designed around the realities of cooperative finance in Nigeria: trust-based loan guarantees, community-level transparency requirements, cash-heavy operations, and the need for administrators who are community leaders first and accountants second.
 
 ---
 
-## Our Repositories
+## Security & Compliance
 
-| Repository | Description |
-|---|---|
-| `backend` | Core platform API — authentication, cooperative management, loans, obligations, transfers, bill payments, KYC, and the agent portal |
-| `dashboard` | Web and desktop application for cooperative administrators |
-| `mobile` | Flutter mobile app for cooperative members (iOS & Android) |
-| `website` | Marketing website |
-| `kycsvc` | Go microservice owning all KYC/KYB compliance workflows |
-| `notificationsvc` | Email and SMS notification microservice |
-| `sms_mobile_app` | Android SMS gateway for local message delivery |
+Financial infrastructure demands a higher standard of security. Communal is built with that standard as a starting point, not an addition.
+
+- **Regulatory compliance** — all accounts operate under CBN-regulated banking infrastructure with enforced transaction limits by identity tier
+- **Encrypted identity data** — all KYC and personal information is encrypted at rest
+- **Biometric transaction signing** — high-value transactions require device-level biometric confirmation
+- **Multi-factor authentication** — TOTP, SMS, and email second factors with backup recovery codes
+- **Idempotent operations** — every financial mutation is protected against double-processing, even across network failures
+- **Immutable audit trails** — every administrative action, approval, and financial event is permanently logged
+- **Account freeze workflows** — cooperative administrators and platform operators can freeze accounts instantly, with a full unfreeze request and approval process
 
 ---
 
-## Built for Nigeria. Ready to Scale.
+## Built to Scale Across Markets
 
-Communal is designed for the Nigerian market — NIP interbank transfers, NGN wallets, local regulatory compliance — and architected to grow alongside it.
+The cooperative model is not unique to any one country. Across Africa and the emerging world, hundreds of millions of people participate in community savings and lending groups under different names — cooperatives, SACCOs, ajo, esusu, chama, susu. The infrastructure problem is everywhere the same.
 
-We believe that modern financial infrastructure shouldn't be limited to individuals with bank accounts or corporations with large IT teams. Cooperatives are communities, and communities deserve tools built with the same care and rigour as any tier-one bank.
+Communal launched in Nigeria and is expanding across Africa. The platform is architected from the ground up for multi-market deployment — country-aware banking integrations, localised compliance workflows, and currency-agnostic financial operations — so that every new market is an extension of the same platform, not a separate build.
+
+Our architecture is modular and event-driven, built to support thousands of cooperatives and millions of members across multiple countries without compromising on reliability, compliance, or auditability.
+
+We are at the beginning of a long journey. The goal is to make cooperative membership as seamless and trustworthy as any tier-one banking product — for every community that deserves it, wherever they are.
+
+---
+
+## Work With Us
+
+We are a small, focused team solving a large, important problem. If you are an engineer, designer, or product thinker who wants to build financial infrastructure that materially improves people's lives, we want to hear from you.
+
+**[hello@communalhq.com](mailto:hello@communalhq.com)**
 
 ---
 
 <div align="center">
   <strong><a href="https://communalhq.com">communalhq.com</a></strong>
-  &nbsp;·&nbsp;
-  <strong><a href="mailto:hello@communalhq.com">hello@communalhq.com</a></strong>
   <br /><br />
-  <sub>&copy; Communal Technologies Limited &mdash; Lagos, Nigeria</sub>
+  <sub>&copy; Communal Technologies Limited</sub>
 </div>
